@@ -1,0 +1,197 @@
+
+
+body {
+    width:99%;
+    margin:auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background:
+         seashell
+        url('https://images.unsplash.com/photo-1572024847331-51608dafcf45?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80')
+        top center / 100%
+        fixed
+        repeat-y;
+  }
+  
+  h1,h2 {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  div {
+    border: medium outset silver;
+    border-radius: 5px;
+    margin: 15px auto;
+    padding: 10px;
+    background: rgba(201, 243, 245, 0.5);
+    text-align: center;
+  }
+  
+  #header {
+    font-size: larger;
+    text-align: center;
+    vertical-align: center;
+    text-decoration: underline;
+    text-shadow: 2px 2px 5px silver;
+    height: 120px;
+    padding-top: 5%;
+    background: rgba(201, 243, 245, 0.5)
+  }
+  
+  nav {
+    background-color: rgba(9,136,90,0.7);
+    position: sticky; top: 0px;
+    border: 2px solid darkgray;
+    text-align: center;
+    padding: 10px;
+    font-size: 100%;
+    border-radius: 5px;
+    color: whitesmoke
+  }
+  
+  
+  table {
+    width: 100%;
+    text-align: center;
+  }
+  tr {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr
+  }
+  
+  input[type=text] {background-color: lightgray;
+  }
+  input[type=email] {background-color: lightgray;
+  }
+  
+  textarea {
+    background-color: seashell;
+    width: 70%; 
+  }
+  
+  #experience {
+    background:
+       rgba(245,245,220,0.4)
+       url('https://images.unsplash.com/photo-1595669837570-7cedad2a54d0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGJyaXRpc2glMjBhaXJ3YXlzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60')
+       bottom center / cover
+       repeat-y
+       fixed;
+    display: inline-block;
+    width: 100%;
+    margin: 15px auto;
+  }
+  
+  
+  #footer {
+    font-size: 80%;
+    position: sticky;
+    bottom: 0px;
+    width: 99%;
+    padding: 10px 0px;
+  }
+  
+  button {
+    background-color: white
+  }
+  
+  img {
+    border-radius: 5px;
+  }
+  
+  
+    /* aside {
+      width: 20%;
+      padding-left: .5rem;
+      margin: .5rem;
+      float: right;
+      border-bottom: 1px solid navy;
+      font-style: italic;
+      color: navy;
+  } */
+  
+  #takeoff:hover {background-color: lightgreen;
+  }
+  #reject:hover {background-color: red;}
+  
+  nav>a {
+    color:whitesmoke
+  }
+  
+  a:hover {
+    color:red;
+    text-decoration: none;
+  }
+  
+  footer > span {
+    background-color: rgb(154, 174, 241);
+  }
+  footer > p {
+    text-align: center;
+  }
+  
+  .text-uppercase {
+    text-transform: uppercase;
+  }
+  
+  .inlineblock {
+    display:inline-block;
+    width: 45%;
+    height: 200px;
+    vertical-align: top;
+  
+  }
+  
+  .italic {
+    font-style: italic;
+  }
+  
+  .float-left {
+    float: left;
+  }
+  
+  
+  .float-right {
+    float: right;
+  }
+  
+  .underneath {
+    position: relative;
+    float: left;
+    left: 0;
+    top: 10px;
+  }
+  .form-div {
+    margin: 30px;
+    border: 2px outset silver;
+    
+  }
+  
+  .box {
+          display: block;
+          background-color: rgba(0, 0, 0, 0.4);
+          position: absolute;
+          position: fixed;
+          top: 40%;
+          left:20%;
+          max-height: 40px;
+          color: whitesmoke;
+        }
+  
+  #a-good-idea {
+    overflow: auto;
+    float: left;
+  }
+  
+  
+  #alts {
+    float: right;
+    overflow-y: scroll;
+  }
+  
+
+  
+  /* ba GOOD COLOR PALATE
+  #ce210f
+  #5972b6
+  #488ab8
+  #2e5c99
+  #c7cbe8
+  */
